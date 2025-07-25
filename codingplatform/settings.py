@@ -10,7 +10,7 @@ DEBUG = True
 PISTON_API_URL = "http://localhost:2000/api/v2/execute"
 
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1','192.168.72.169']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','192.168.72.169','*']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
