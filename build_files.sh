@@ -1,3 +1,11 @@
 # build_files.sh
+
+#!/bin/bash
+# Exit on error
+set -o errexit
+
+# Install dependencies
 pip install -r requirements.txt
-python3.9 manage.py collectstatic --noinput
+
+# Collect static files
+python manage.py collectstatic --noinput
